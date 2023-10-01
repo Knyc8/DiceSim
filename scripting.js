@@ -25,7 +25,7 @@ function roll() {
         display(tempd1, tempd2, sum);
         dice1.classList.remove("rolling")
         dice2.classList.remove("rolling")
-    }, 500); 
+    }, 700); 
 }
 
 function display(d1, d2, sum) {

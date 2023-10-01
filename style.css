@@ -21,7 +21,7 @@ p {
 }
 
 .dice.rolling {
-    animation: rolling 0.5s;
+    animation: rolling 0.7s;
 }
 
 @keyframes rolling {
