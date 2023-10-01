@@ -1,0 +1,60 @@
+/* Kenny Chen 9-10 */
+
+body {
+    background-color: lightgray;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    display: inline-block;
+    margin: 25px 100px;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 100px;
+}
+
+.dice.rolling {
+    animation: rolling 0.5s;
+}
+
+@keyframes rolling {
+    0% {
+        background-image: url(Images/side2.png);
+    }
+    25% {
+        background-image: url(Images/side3.png);
+    }
+    50% {
+        background-image: url(Images/side4.png);
+    }
+    75% {
+        background-image: url(Images/side5.png);
+    }
+    100% {
+        background-image: url(Images/side6.png);
+    }
+  }
+
+#dice1 {
+    background-image: url(Images/side1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#dice2 {
+    background-image: url(Images/side1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 15px;
+}
